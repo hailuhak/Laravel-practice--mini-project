@@ -2,11 +2,17 @@
 <html>
 <head>
     <title>My Laravel App</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
+ <body >
 
-    <h1>Hello Laravel 🚀</h1>
-    <p>I am learning Laravel.</p>
+    <h1 >
+    Hello Laravel + Tailwind!
+</h1>
+
+<button class="rounded-lg bg-blue-500 px-4 py-2 text-white hover:bg-blue-700">
+    Click Me
+</button>
 
 </body>
 </html>
